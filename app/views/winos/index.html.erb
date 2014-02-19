@@ -1,0 +1,9 @@
+<p>Current Page: <%= @products["pager"]["current_page"] %></p>
+
+<ul>
+	<% @products["result"].each do |p| %>
+		<li><%= p["name"] %></li>
+	<% end %>
+</ul>
+
+<%= link_to "Next", winos_url %>

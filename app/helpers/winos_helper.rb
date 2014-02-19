@@ -1,0 +1,2 @@
+module WinosHelper
+end
